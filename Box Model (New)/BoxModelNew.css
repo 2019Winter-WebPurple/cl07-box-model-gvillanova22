@@ -1,0 +1,34 @@
+/* Gia Villanova
+May 10, 2019
+Box Model */
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Starting the page on a clean slate */
+
+main{
+    border-style: solid; 
+    padding: 1em 2em 1em 1em; }
+/* The main border will be solid */
+
+body {
+    border-style: dashed; 
+    padding: 2em 1em 1em 1em; }
+/* The body border will be dashed */
+
+h1 {
+    border-style: dashed; 
+    padding: 1em .5em .5em .5em;
+    margin: .5em;}
+/* The header border will be dashed */
+
+p {
+    border-style: dashed;
+    padding: 1em .5em .5em .5em; 
+    margin: .5em; }
+
+/* The paragraph border will be dashed */
