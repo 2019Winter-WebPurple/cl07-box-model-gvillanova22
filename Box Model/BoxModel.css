@@ -1,0 +1,29 @@
+/* Gia Villanova
+May 10, 2019
+Box Model */
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    border-style: solid; 
+    padding: 1em 2em 1em 1em; }
+
+body {
+    border-style: dashed; 
+    padding: 2em 1em 1em 1em; }
+
+h1 {
+    border-style: dashed; 
+    padding: 1em .5em .5em .5em;
+    margin: .5em;}
+
+
+p {
+    border-style: dashed;
+    padding: 1em .5em .5em .5em; 
+    margin: .5em; }
